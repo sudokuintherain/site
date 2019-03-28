@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sudoku In The Rain</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Kalam" rel="stylesheet">
+
+</head>
+<body>
+  <div id="container">
+    <div id="title">
+      <h1>Sudoku In The Rain</h1>
+    </div><!-- title -->
+
+    <div id="puzzle">
+      <table id="board">
+        <tbody>
+        <tr><td class='a1'><input id='n1' class='allow-write' maxlength='1'></td><td class='a2'><input id='n2' value='9' class='prohibit-write' maxlength='1' disabled></td><td class='a3'><input id='n3' value='6' class='prohibit-write' maxlength='1' disabled></td><td class='a1'><input id='n4' class='allow-write' maxlength='1'></td><td class='a2'><input id='n5' value='3' class='prohibit-write' maxlength='1' disabled></td><td class='a3'><input id='n6' value='4' class='prohibit-write' maxlength='1' disabled></td><td class='a1'><input id='n7' class='allow-write' maxlength='1'></td><td class='a2'><input id='n8' value='1' class='prohibit-write' maxlength='1' disabled></td><td class='a3'><input id='n9' value='5' class='prohibit-write' maxlength='1' disabled></td></tr><tr><td class='a4'><input id='n10' class='allow-write' maxlength='1'></td><td class='a5'><input id='n11' class='allow-write' maxlength='1'></td><td class='a6'><input id='n12' value='7' class='prohibit-write' maxlength='1' disabled></td><td class='a4'><input id='n13' value='2' class='prohibit-write' maxlength='1' disabled></td><td class='a5'><input id='n14' value='5' class='prohibit-write' maxlength='1' disabled></td><td class='a6'><input id='n15' class='allow-write' maxlength='1'></td><td class='a4'><input id='n16' value='3' class='prohibit-write' maxlength='1' disabled></td><td class='a5'><input id='n17' class='allow-write' maxlength='1'></td><td class='a6'><input id='n18' class='allow-write' maxlength='1'></td></tr><tr><td class='a7'><input id='n19' value='3' class='prohibit-write' maxlength='1' disabled></td><td class='a8'><input id='n20' class='allow-write' maxlength='1'></td><td class='a9'><input id='n21' class='allow-write' maxlength='1'></td><td class='a7'><input id='n22' class='allow-write' maxlength='1'></td><td class='a8'><input id='n23' class='allow-write' maxlength='1'></td><td class='a9'><input id='n24' class='allow-write' maxlength='1'></td><td class='a7'><input id='n25' class='allow-write' maxlength='1'></td><td class='a8'><input id='n26' class='allow-write' maxlength='1'></td><td class='a9'><input id='n27' class='allow-write' maxlength='1'></td></tr><tr><td class='a1'><input id='n28' value='4' class='prohibit-write' maxlength='1' disabled></td><td class='a2'><input id='n29' class='allow-write' maxlength='1'></td><td class='a3'><input id='n30' class='allow-write' maxlength='1'></td><td class='a1'><input id='n31' class='allow-write' maxlength='1'></td><td class='a2'><input id='n32' class='allow-write' maxlength='1'></td><td class='a3'><input id='n33' value='6' class='prohibit-write' maxlength='1' disabled></td><td class='a1'><input id='n34' class='allow-write' maxlength='1'></td><td class='a2'><input id='n35' class='allow-write' maxlength='1'></td><td class='a3'><input id='n36' class='allow-write' maxlength='1'></td></tr><tr><td class='a4'><input id='n37' class='allow-write' maxlength='1'></td><td class='a5'><input id='n38' value='7' class='prohibit-write' maxlength='1' disabled></td><td class='a6'><input id='n39' value='3' class='prohibit-write' maxlength='1' disabled></td><td class='a4'><input id='n40' value='4' class='prohibit-write' maxlength='1' disabled></td><td class='a5'><input id='n41' class='allow-write' maxlength='1'></td><td class='a6'><input id='n42' class='allow-write' maxlength='1'></td><td class='a4'><input id='n43' value='1' class='prohibit-write' maxlength='1' disabled></td><td class='a5'><input id='n44' value='8' class='prohibit-write' maxlength='1' disabled></td><td class='a6'><input id='n45' class='allow-write' maxlength='1'></td></tr><tr><td class='a7'><input id='n46' class='allow-write' maxlength='1'></td><td class='a8'><input id='n47' value='8' class='prohibit-write' maxlength='1' disabled></td><td class='a9'><input id='n48' class='allow-write' maxlength='1'></td><td class='a7'><input id='n49' class='allow-write' maxlength='1'></td><td class='a8'><input id='n50' value='1' class='prohibit-write' maxlength='1' disabled></td><td class='a9'><input id='n51' value='7' class='prohibit-write' maxlength='1' disabled></td><td class='a7'><input id='n52' value='2' class='prohibit-write' maxlength='1' disabled></td><td class='a8'><input id='n53' class='allow-write' maxlength='1'></td><td class='a9'><input id='n54' class='allow-write' maxlength='1'></td></tr><tr><td class='a1'><input id='n55' class='allow-write' maxlength='1'></td><td class='a2'><input id='n56' value='2' class='prohibit-write' maxlength='1' disabled></td><td class='a3'><input id='n57' value='1' class='prohibit-write' maxlength='1' disabled></td><td class='a1'><input id='n58' class='allow-write' maxlength='1'></td><td class='a2'><input id='n59' value='4' class='prohibit-write' maxlength='1' disabled></td><td class='a3'><input id='n60' class='allow-write' maxlength='1'></td><td class='a1'><input id='n61' value='9' class='prohibit-write' maxlength='1' disabled></td><td class='a2'><input id='n62' value='5' class='prohibit-write' maxlength='1' disabled></td><td class='a3'><input id='n63' class='allow-write' maxlength='1'></td></tr><tr><td class='a4'><input id='n64' class='allow-write' maxlength='1'></td><td class='a5'><input id='n65' value='3' class='prohibit-write' maxlength='1' disabled></td><td class='a6'><input id='n66' class='allow-write' maxlength='1'></td><td class='a4'><input id='n67' value='9' class='prohibit-write' maxlength='1' disabled></td><td class='a5'><input id='n68' class='allow-write' maxlength='1'></td><td class='a6'><input id='n69' class='allow-write' maxlength='1'></td><td class='a4'><input id='n70' value='6' class='prohibit-write' maxlength='1' disabled></td><td class='a5'><input id='n71' value='7' class='prohibit-write' maxlength='1' disabled></td><td class='a6'><input id='n72' class='allow-write' maxlength='1'></td></tr><tr><td class='a7'><input id='n73' class='allow-write' maxlength='1'></td><td class='a8'><input id='n74' class='allow-write' maxlength='1'></td><td class='a9'><input id='n75' class='allow-write' maxlength='1'></td><td class='a7'><input id='n76' class='allow-write' maxlength='1'></td><td class='a8'><input id='n77' value='7' class='prohibit-write' maxlength='1' disabled></td><td class='a9'><input id='n78' class='allow-write' maxlength='1'></td><td class='a7'><input id='n79' class='allow-write' maxlength='1'></td><td class='a8'><input id='n80' value='3' class='prohibit-write' maxlength='1' disabled></td><td class='a9'><input id='n81' class='allow-write' maxlength='1'></td></tr>
+        </tbody>
+      </table>
+    </div><!-- puzzle -->
+
+    <div id="check">
+      <input id="check-button" class="button-common" type="button" value="Check" />
+      <input id="check-display" type="text">
+    </div><!-- check -->
+
+    <div id="audio">
+      <audio id="sound-controller" valume="0.5" loop="loop">
+        <source src="../bgm/Light-gentle-rain-sound.mp3" type="audio/mp3">
+        <source src="../bgm/Light-gentle-rain-sound.ogg" type="audio/ogg">
+      </audio>
+
+      <button id="sound-button" class="play"></button>
+      <input id="volume-bar" type="range" min="0" max="0.4" step="0.01" value="0.25" />
+    </div><!-- audio -->
+
+    <div id="select">
+      <a id="select-link" href="">Select a puzzle(1 ~ 10,000)</span>
+      <input id="select-number">
+      <input id="select-submit" type="submit" value="Go">
+    </div><!-- select -->
+  </div><!-- container -->
+
+  <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+  <script>
+    var answer = [2,9,6,7,3,4,8,1,5,1,4,7,2,5,8,3,6,9,3,5,8,1,6,9,7,2,4,4,1,2,3,8,6,5,9,7,5,7,3,4,9,2,1,8,6,6,8,9,5,1,7,2,4,3,7,2,1,6,4,3,9,5,8,8,3,4,9,2,5,6,7,1,9,6,5,8,7,1,4,3,2];
+  </script>
+  <script type="text/javascript" src="../js/main.js"></script>
+</body>
+</html>

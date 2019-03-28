@@ -1,0 +1,329 @@
+body {
+    background: url("../img/abstract-art-background-268787-min.jpg") no-repeat center center;
+    background-size: 900px;
+    background-color: black;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-align: justify; 
+}
+
+h1 {
+    padding-top: 75px;
+    color: white;
+    font-size: 2.9rem;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 0 0 3px black;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 200px;
+  background: none;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: white;
+  border-radius: 1px;
+  border: 0px solid #000000;
+  margin-top: 5px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #2497E3;
+  height: 16px;
+  width: 14px;
+  border-radius: 25px;
+  background: white;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #2497E3;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #000000;
+  background: white;
+  border-radius: 1px;
+  border: 0px solid #000000;
+}
+
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #2497E3;
+  height: 14px;
+  width: 14px;
+  border-radius: 25px;
+  background: white;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: white;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: white;
+  border: 0px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px #000000;
+}
+
+input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #2497E3;
+  height: 14px;
+  width: 14px;
+  border-radius: 25px;
+  background: white;
+  cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #2497E3;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #2497E3;
+}
+
+#container {
+    height: 720px;
+}
+
+#title a {
+    text-decoration: none;
+}
+
+#puzzle {
+    margin: 0 auto;
+    width: 288px;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.99);
+}
+
+#board {
+    width: 100%;
+    margin: 0 auto;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+#board tbody {
+
+}
+
+#board tbody tr {
+
+}
+
+#board tbody tr td {
+    padding: 0px;
+}
+
+#board tbody tr td input {
+    width: 28px;
+    height: 28px;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Noto+Serif+JP', serif;
+    text-align: center;
+    border-style: none;
+}
+
+.prohibit-write {
+    color: white;
+    -webkit-text-fill-color: white;
+    outline: 0;
+}
+
+.allow-write {
+    color: #2196F3;
+}
+
+.a1 {
+    border-top: white solid 3px;
+    border-left: white solid 3px;
+    border-right: white solid 1px;
+    border-bottom: white solid 1px;
+}
+
+.a2 {
+    border-top: white solid 3px;
+    border-left: white solid 1px;
+    border-right: white solid 1px;
+    border-bottom: white solid 1px;
+
+}
+
+.a3 {
+    border-top: white solid 3px;
+    border-left: white solid 1px;
+    border-right: white solid 3px;
+    border-bottom: white solid 1px;
+}
+
+.a4 {
+    border-top: white solid 1px;
+    border-left: white solid 3px;
+    border-right: white solid 1px;
+    border-bottom: white solid 1px;
+}
+
+.a5 {
+    border-top: white solid 1px;
+    border-left: white solid 1px;
+    border-right: white solid 1px;
+    border-bottom: white solid 1px;
+}
+
+.a6 {
+    border-top: white solid 1px;
+    border-left: white solid 1px;
+    border-right: white solid 3px;
+    border-bottom: white solid 1px;
+}
+
+.a7 {
+    border-top: white solid 1px;
+    border-left: white solid 3px;
+    border-right: white solid 1px;
+    border-bottom: white solid 3px;
+}
+
+.a8 {
+    border-top: white solid 1px;
+    border-left: white solid 1px;
+    border-right: white solid 1px;
+    border-bottom: white solid 3px;
+}
+
+.a9 {
+    border-top: white solid 1px;
+    border-left: white solid 1px;
+    border-right: white solid 3px;
+    border-bottom: white solid 3px;
+}
+
+#check {
+    width: 325px;
+    margin: 0 auto;
+    margin-top: 5px;
+    height: 37px;
+}
+
+#check-button {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    text-decoration: underline;
+    border: 1px solid #0e0e0e;
+    background-color: black;
+    color: white;
+}
+
+#check-button:hover {
+    background-color: #4015bd;
+}
+
+#check-display {
+    width: 230px;
+    height: 25px;
+    color: #2196F3;;
+    font-size: 17px;
+    background-color: black;
+    text-align: center;
+    border: 1px solid #0e0e0e;
+}
+
+#audio {
+    position: relative;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.play {
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+    margin-top: 10px;
+    background-size: 100% 100%;
+    background: url("../img/play_button_64.png") no-repeat;
+    border: none;
+    outline: none;
+}
+
+.pause {
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+    margin-top: 10px;
+    background-size: 100% 100%;
+    background: url("../img/stop_button_64.png") no-repeat;
+    border: none;
+    outline: none;
+}
+
+#volume-bar {
+  position: absolute;
+  top: 26px;
+  left: 100px;
+}
+
+#select {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#select-link {
+    font-weight: 100;
+    font-size: 17px;
+    font-family: 'Frank Ruhl Libre', serif;
+    padding-left: 1px;
+}
+
+#select-number {
+    display: none;
+    width: 70px;
+    height: 17px;
+    margin-left: 5px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-align: right;
+}
+
+#select-submit {
+    display: none;
+    background-color: black;
+    color: white;
+}
