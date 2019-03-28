@@ -75,7 +75,7 @@ $(function() {
     $("#select-submit").click(function() {
         var select_number = $("#select-number").val();
         if (0 < select_number && select_number < 10001 ) {
-            window.location.href = 'https://sudokuintherain.github.io/site/' +
+            window.location.href = 'https://sudokuintherain.github.io/site/puzzle_page/' +
                                    select_number +
                                    '.html';
         } else {
