@@ -154,7 +154,7 @@ input[type=range]:focus::-ms-fill-upper {
     height: 28px;
     background-color: black;
     font-size: 21px;
-    font-family: 'Noto+Serif+JP', serif;
+    font-family: 'Noto Serif JP', serif;
     text-align: center;
     border-style: none;
 }
